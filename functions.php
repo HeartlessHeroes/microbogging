@@ -3,7 +3,7 @@
 function loadModule($switch){
 	switch ($switch){
 		case 'profileImage':
-			echo '<div id="profileImage" class="sidebarModule"><img src="/media/image/' . $_SESSION['user'] . '" class="image"></div>';
+			echo '<div id="profileImage" class="sidebarModule"><img src="/media/image/' . $_SESSION['user'] . '.png" class="image"></div>';
 			break;
 		case 'followCount':
 			echo '<div id="followCount" class="sidebarModule">Followers: 100<br>Following: 200</div>';

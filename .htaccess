@@ -7,5 +7,5 @@ RewriteCond %{SCRIPT_FILENAME} !-f
 # and it's not a request for an existing directory
 RewriteCond %{SCRIPT_FILENAME} !-d
 # rewrite.
-RewriteRule ^([^/]+)/?$ /user.php?id=$1 [R,QSA,L]
+RewriteRule ^([A-Za-z0-9-]+)?$ /user.php?id=$1 [QSA,L]
 </IfModule>

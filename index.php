@@ -19,7 +19,7 @@ require 'sql.php';
 				<?php loadModule('newPost'); ?>
 			</div>
 			<div id="timelineWrapper" class="curvedBorder">
-				<?php timelinePosts(); ?>
+				<?php timelinePosts(NULL); ?>
 			</div>
 		</div>
 	</body>

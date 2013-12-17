@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION['user'] = 'tyler';
 require 'functions.php';
 require 'sql.php';
 ?>

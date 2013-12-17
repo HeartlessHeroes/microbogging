@@ -14,6 +14,12 @@ function loadModule($switch){
 	}
 }
 
-function timelinePosts($user = $_SESSION['user'], $offset = 0) {
+function timelinePosts($array) {
+	if (!$array['user']){
+		$array['user'] = $_SESSION['user'];
+	}
+	if (!$array['offset']){
+		$array['offset'] = 0;
+	}
 	echo '<div class="timelineEntry">This is a text post.</div>';
 }

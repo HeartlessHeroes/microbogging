@@ -1,7 +1,11 @@
 <?php
 if(empty(session_id())){
 	session_start();
-	loginPage();
+	if(!isset($_POST)){
+		loginPage();
+	} else {
+		login();
+	}
 } else {
 	require 'functions.php';
 	require 'sql.php';

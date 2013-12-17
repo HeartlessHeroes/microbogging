@@ -1,5 +1,18 @@
 <?php
 
+function login(){
+	$_SESSION['user'] = $_POST['user'];
+	$_SESSION['pass'] = $_POST['pass'];
+}
+
+function loginPage(){
+	echo '<form method="POST">';
+	echo 'Username: <input type="text" name="user"><br>';
+	echo 'Password: <input type="password" name="pass"><br>';
+	echo '<input type="submit">';
+	echo '</form>'
+}
+
 function loadModule($switch){
 	switch ($switch){
 		case 'profileImage':

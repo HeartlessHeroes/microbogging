@@ -1,0 +1,10 @@
+body {
+	padding: 0 1em;
+	background: #222;
+	color: #fff;
+	font-family: 'Signika', sans-serif;
+}
+.red { color: #c33; }
+.green { color: #6be234; }
+.blue { color: #729fcf; }
+.grey { color: #999; }

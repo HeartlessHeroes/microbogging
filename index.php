@@ -1,4 +1,5 @@
 <?php
+require 'functions.php';
 if(empty(session_id())){
 	session_start();
 	if(!isset($_POST)){
@@ -7,7 +8,6 @@ if(empty(session_id())){
 		login();
 	}
 } else {
-	require 'functions.php';
 	require 'sql.php';
 	?>
 	<html>

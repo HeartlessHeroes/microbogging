@@ -13,11 +13,12 @@ require 'sql.php';
 		<div id="headerWrapper">
 		</div>
 		<div id="contentWrapper">
-			<div id="sidebarWrapper">
+			<div id="sidebarWrapper" class="curvedBorder">
 				<?php loadModule('profileImage'); ?>
 				<?php loadModule('followCount'); ?>
+				<?php loadModule('newPost'); ?>
 			</div>
-			<div id="timelineWrapper">
+			<div id="timelineWrapper" class="curvedBorder">
 				<?php timelinePosts(); ?>
 			</div>
 		</div>

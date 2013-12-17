@@ -83,3 +83,7 @@ body {
 .image {
 	width: 100%;
 }
+
+.newPost textarea{
+	color: #A3A3A3;
+}

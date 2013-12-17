@@ -14,7 +14,8 @@ require 'sql.php';
 		</div>
 		<div id="contentWrapper">
 			<div id="sidebarWrapper">
-				<div class="sidebarModule profileImage"><img src="https://pbs.twimg.com/profile_images/378800000281645191/148c9aa0fb90a3d0a422e28a66786db5.jpeg" class="image"></div>
+				<?php loadModule('profileImage'); ?>
+				<?php loadModule('followCount'); ?>
 			</div>
 			<div id="timelineWrapper">
 				<?php timelinePosts(); ?>

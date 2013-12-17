@@ -53,4 +53,13 @@ body {
     white-space: pre-wrap;
     word-wrap: break-word;
     font-size: 14px;
+	display: flex;
 }
+
+.imageWrapper {
+    margin: 0 auto;
+}
+
+	.imageWrapper, img {
+    	width: 100%;
+	}

@@ -9,7 +9,7 @@
 		</div>
 		<div id="contentWrapper">
 			<div id="sidebarWrapper">
-				
+				<div class="sidebarModule"></div>
 			</div>
 			<div id="timelineWrapper">
 				<div class="timelineEntry">This is a text post.</div>

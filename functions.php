@@ -9,7 +9,7 @@ function loadModule($switch){
 			echo '<div id="followCount" class="sidebarModule">Followers: 100<br>Following: 200</div>';
 			break;
 		case 'newPost':
-			echo '<div id="newPost" class="sidebarModule"><textarea class="newPost curvedBorder" rows="1" cols="29" onfocus="this.rows=10;" onblur="this.rows=1;" style="resize: none;">Compose a new post...</textarea></div>';
+			echo '<div id="newPost" class="sidebarModule"><textarea class="newPost curvedBorder" rows="1" cols="29" onfocus="this.rows=5;" onblur="this.rows=1;" style="resize: none;overflow:hidden;">Compose a new post...</textarea></div>';
 			break;
 	}
 }

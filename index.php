@@ -1,6 +1,6 @@
 <?php
 require 'functions.php';
-if(!isset(session_id())){
+if(!isset($_SESSION['user'])){
 	session_start();
 	if(!isset($_POST)){
 		loginPage();

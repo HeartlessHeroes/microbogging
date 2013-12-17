@@ -1,10 +1,56 @@
 body {
-	padding: 0 1em;
-	background: #222;
-	color: #fff;
-	font-family: 'Signika', sans-serif;
+    background: #222;
+    font-family: Signika, sans-serif;
+    margin: 0;
+	color: #000;
 }
-.red { color: #c33; }
-.green { color: #6be234; }
-.blue { color: #729fcf; }
-.grey { color: #999; }
+
+.red {
+    color: #c33;
+}
+
+.green {
+    color: #6be234;
+}
+
+.blue {
+    color: #729fcf;
+}
+
+.grey {
+    color: #999;
+}
+
+#contentWrapper {
+    width: 800px;
+    min-height: 500px;
+    margin: 30px auto 0;
+}
+
+#timelineWrapper {
+    float: left;
+    width: 500px;
+    min-height: 200px;
+}
+
+#sidebarWrapper {
+    float: left;
+    width: 300px;
+    min-height: 200px;
+}
+
+#headerWrapper {
+    height: 30px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.timelineEntry {
+    padding: 5px;  
+    border-bottom: 1px solid #e8e8e8;
+    background: #fff;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+}

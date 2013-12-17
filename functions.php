@@ -10,7 +10,7 @@ function loginPage(){
 	echo 'Username: <input type="text" name="user"><br>';
 	echo 'Password: <input type="password" name="pass"><br>';
 	echo '<input type="submit">';
-	echo '</form>'
+	echo '</form>';
 }
 
 function loadModule($switch){

@@ -9,6 +9,7 @@ require 'sql.php';
 		<title>Microblogging site</title>
 		<link href='http://fonts.googleapis.com/css?family=Signika:400,300,700,600' rel='stylesheet' type='text/css'>
 		<link href='css/main.css' rel='stylesheet' type='text/css'>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="headerWrapper">

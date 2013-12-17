@@ -10,6 +10,21 @@ require 'sql.php';
 		<link href='http://fonts.googleapis.com/css?family=Signika:400,300,700,600' rel='stylesheet' type='text/css'>
 		<link href='css/main.css' rel='stylesheet' type='text/css'>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script>
+		$('textarea.newPost')
+		  .on('focus', function(){
+		      var $this = $(this);
+		      if($this.val() == 'Compose a new post...'){
+		          $this.val('');
+		      }
+		  })
+		  .on('blur', function(){
+		      var $this = $(this);
+		      if($this.val() == ''){
+		          $this.val('Compose a new post...');
+		      }
+		  });
+		</script>
 	</head>
 	<body>
 		<div id="headerWrapper">
